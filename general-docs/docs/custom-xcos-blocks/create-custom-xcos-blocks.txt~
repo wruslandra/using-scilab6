@@ -1,0 +1,7 @@
+http://www.equalis.com/blogpost/731635/129445/Introduction-to-the-Xcos-SCIFUNC_BLOCK_M
+
+The Xcos SCIFUNC_BLOCK_M block, or the Scilab function block, is a nice little block that allows the user to create a custom Xcos block defined using scilab functions. What makes this block so useful is the block's flexibility. The user can essentially create a Scilab function script replete with logic statements, less common Scilab functions or whatever is necessary and not immediately realizable with Xcos, and place it into the block.
+
+This block is located in the User Defined Functions palette.
+
+Opening the block parameters of a SCIFUN_BLOCK_M will bring up 5 dialog boxes. 

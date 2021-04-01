@@ -1,0 +1,25 @@
+// 01-Basic-Plot.sce
+
+// Close all opened figures and clear workspace
+	xdel(winsid());
+	clear;
+	clc;
+// Figure #1: Basic plot with LaTex annotations
+// ----------
+
+// Data
+x = linspace(-5,5,51);
+y = 1 ./(1+x.^2);
+
+// Plot
+	scf(1);
+	clf(1);
+	plot(x,y,'o-b');
+
+xlabel("$-5\le x\le 5$","fontsize",4,"color","red");
+ylabel("$y(x)=\frac{1}{1+x^2}$","fontsize",4,"color","red");
+title("Runge function (#Points = "+string(length(x))+").","color","red","fontsize",4);
+legend("Function evaluation");
+
+
+

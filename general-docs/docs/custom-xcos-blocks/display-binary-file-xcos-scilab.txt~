@@ -1,0 +1,16 @@
+
+https://help.scilab.org/docs/5.5.2/en_US/WRITEC_f.html
+
+Author : Chamfrault Marthe posted the 26/02/2013 08:31
+I found a solution, it may be useful for somebody...
+You need to write a short Scilab Script like this:
+
+fdT=mopen('binary_file', 'rb');
+binary_data=mget(1000, 'f', fdT); //change the number with the size of your data (2columns of 500 data-->1000)
+fdT2=mopen('text_file.txt', 'wt');
+for i=1:500,
+mfprintf(fdT2,'%f %f\n',binary_data(2*i-1),binary_data(2*i));
+end
+mclose('all');
+
+You will have the "text_file.txt" in your PWD-Folder and can use it with Excel.

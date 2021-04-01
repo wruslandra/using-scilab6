@@ -1,0 +1,100 @@
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ date
+Fri 19 Mar 2021 12:46:21 AM +08
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ uname -a
+Linux HPEliteBook8470p-Ub2004-rt38 5.4.66-rt38 #1 SMP PREEMPT_RT 
+Sat Sep 26 16:51:59 +08 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ lsb_release -a
+LSB Version:    core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID: Ubuntu
+Description:    Ubuntu 20.04.2 LTS
+Release:        20.04
+Codename:       focal
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-scilab$ ls -al
+total 36
+drwxrwxr-x 8 wruslan wruslan 4096 Mar 19 01:33 .
+drwxrwxr-x 9 wruslan wruslan 4096 Mar 19 01:32 ..
+drwxrwxr-x 5 wruslan wruslan 4096 Mar 19 01:39 docs
+drwxrwxr-x 2 wruslan wruslan 4096 Mar 19 01:48 figures
+drwxrwxr-x 2 wruslan wruslan 4096 Mar 19 01:04 files
+drwxrwxr-x 8 wruslan wruslan 4096 Mar 19 00:35 .git
+drwxrwxr-x 2 wruslan wruslan 4096 Mar 19 01:49 modules-list
+-rw-rw-r-- 1 wruslan wruslan   34 Mar 19 00:35 README.md
+drwxrwxr-x 2 wruslan wruslan 4096 Mar 19 01:40 sessions
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-scilab$ 
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-scilab$ tree ./
+./
+├── docs
+│   ├── custom-xcos-blocks
+│   │   ├── create-custom-xcos-blocks.txt
+│   │   ├── create-custom-xcos-blocks.txt~
+│   │   ├── display-binary-file-xcos-scilab.txt
+│   │   ├── display-binary-file-xcos-scilab.txt~
+│   │   ├── file-out01.bin
+│   │   ├── file-out02.bin
+│   │   ├── file-out03.bin
+│   │   ├── random-and-function-01.xcos
+│   │   ├── random-and-function-02.zcos
+│   │   ├── random-and-function-03.zcos
+│   │   ├── random-and-function.xcos
+│   │   ├── read-binary-file-xcos.zcos
+│   │   ├── Screenshot from 2016-03-23 21_45_56.png
+│   │   ├── Screenshot from 2016-03-23 21_48_32.png
+│   │   ├── write-binary-file-xcos.zcos
+│   │   └── writefile-out01.bin
+│   ├── plotting-in-scilab
+│   │   ├── 01-Basic-Plot.png
+│   │   ├── 01-Basic-Plot.sce
+│   │   ├── 01-Basic-Plot.sce~
+│   │   ├── 02-Multiple-Plots.png
+│   │   ├── 02-Multiple-Plots.sce
+│   │   ├── 03-Grids-Multiple-Plots.png
+│   │   ├── 03-Grids-Multiple-Plots.sce
+│   │   ├── 04-Grids-Auto-Multiple-Plots.png
+│   │   ├── 04-Grids-Auto-Multiple-Plots.sce
+│   │   ├── 05-SemiLog-Plots-Large-Decibel.png
+│   │   ├── 05-SemiLog-Plots-Large-Decibel.sce
+│   │   ├── 06-SemiLog-Plots-Small-Decibel.png
+│   │   ├── 06-SemiLog-Plots-Small-Decibel.sce
+│   │   ├── information-theory.ods
+│   │   └── Plotting_in_Scilab.pdf
+│   └── scilab-xcos-docs
+│       ├── 124782938-Tutorial-Scilab-Xcos-Modelica.pdf
+│       ├── 160432214-Plotting-in-Scilab.pdf
+│       └── 170094435-Control-System-Toolbox-in-Scilab.pdf
+├── figures
+│   ├── List-of-Atom-Modules-2021-03-19-01-44-41.jpg
+│   ├── List-of-Atom-Modules-2021-03-19-01-44-41.png
+│   ├── Scilab-6.1.0-2021-03-19-01-25-52.jpg
+│   └── Scilab-6.1.0-2021-03-19-01-25-52.png
+├── files
+│   ├── bismillah.ngc
+│   ├── butterfly.nc
+│   ├── just-KSG.ngc
+│   └── linuxcnc-logo.nc
+├── modules-list
+│   └── List-of-Atom-Modules-2021-03-19-01-44-41.jpg
+├── README.md
+└── sessions
+    └── session-001.txt
+
+8 directories, 45 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-scilab$ 
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-scilab$ git add .
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-scilab$ git commit -m "initial commit"
+[main 565ed75] initial commit
+
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/wruslandra/using-scilab$ git push origin main
+
+
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY
+===========================================================
+

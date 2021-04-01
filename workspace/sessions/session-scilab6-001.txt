@@ -1,0 +1,100 @@
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-scilab5$ date
+Fri 02 Apr 2021 05:44:47 AM +08
+
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-scilab5$ uname -a
+Linux HPEliteBk8470p-ubstudio-20 5.8.0-48-lowlatency #54~20.04.1-Ubuntu SMP PREEMPT 
+Sat Mar 20 23:24:50 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-scilab5$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-scilab5$ 
+
+===========================================================
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-scilab6$ ls -al
+total 28
+drwxrwxr-x  6 wruslan wruslan 4096 Apr  2 05:40 .
+drwxrwxr-x 17 wruslan wruslan 4096 Apr  2 05:34 ..
+drwxrwxr-x  6 wruslan wruslan 4096 Apr  1 12:11 general-docs
+drwxrwxr-x  8 wruslan wruslan 4096 Apr  2 05:34 .git
+-rw-rw-r--  1 wruslan wruslan   39 Apr  2 05:34 README.md
+drwxrwxr-x  6 wruslan wruslan 4096 Mar 31 16:10 scilab-6.1.0
+drwxrwxr-x  2 wruslan wruslan 4096 Apr  1 12:02 workspace
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-scilab6$ 
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-scilab6$ tree ./
+./
+├── general-docs
+│   ├── docs
+│   │   ├── custom-xcos-blocks
+│   │   │   ├── create-custom-xcos-blocks.txt
+│   │   │   ├── create-custom-xcos-blocks.txt~
+│   │   │   ├── display-binary-file-xcos-scilab.txt
+│   │   │   ├── display-binary-file-xcos-scilab.txt~
+│   │   │   ├── file-out01.bin
+│   │   │   ├── file-out02.bin
+│   │   │   ├── file-out03.bin
+│   │   │   ├── random-and-function-01.xcos
+│   │   │   ├── random-and-function-02.zcos
+│   │   │   ├── random-and-function-03.zcos
+│   │   │   ├── random-and-function.xcos
+│   │   │   ├── read-binary-file-xcos.zcos
+│   │   │   ├── Screenshot from 2016-03-23 21_45_56.png
+│   │   │   ├── Screenshot from 2016-03-23 21_48_32.png
+│   │   │   ├── write-binary-file-xcos.zcos
+│   │   │   └── writefile-out01.bin
+│   │   ├── plotting-in-scilab
+│   │   │   ├── 01-Basic-Plot.png
+│   │   │   ├── 01-Basic-Plot.sce
+│   │   │   ├── 01-Basic-Plot.sce~
+│   │   │   ├── 02-Multiple-Plots.png
+│   │   │   ├── 02-Multiple-Plots.sce
+│   │   │   ├── 03-Grids-Multiple-Plots.png
+│   │   │   ├── 03-Grids-Multiple-Plots.sce
+│   │   │   ├── 04-Grids-Auto-Multiple-Plots.png
+│   │   │   ├── 04-Grids-Auto-Multiple-Plots.sce
+│   │   │   ├── 05-SemiLog-Plots-Large-Decibel.png
+│   │   │   ├── 05-SemiLog-Plots-Large-Decibel.sce
+│   │   │   ├── 06-SemiLog-Plots-Small-Decibel.png
+│   │   │   ├── 06-SemiLog-Plots-Small-Decibel.sce
+│   │   │   ├── information-theory.ods
+│   │   │   └── Plotting_in_Scilab.pdf
+│   │   └── scilab-xcos-docs
+│   │       ├── 124782938-Tutorial-Scilab-Xcos-Modelica.pdf
+│   │       ├── 160432214-Plotting-in-Scilab.pdf
+│   │       ├── 170094435-Control-System-Toolbox-in-Scilab.pdf
+│   │       └── Scilab-Bag-of-Tricks.pdf
+│   ├── files
+│   │   ├── bismillah.ngc
+│   │   ├── butterfly.nc
+│   │   ├── just-KSG.ngc
+│   │   └── linuxcnc-logo.nc
+│   ├── modules-list
+│   │   └── List-of-Atom-Modules-2021-03-19-01-44-41.jpg
+│   └── sessions
+│       ├── scilab-versions.txt
+│       ├── session-001.txt
+│       └── session-002.txt
+├── README.md
+├── scilab-6.1.0
+│   ├── docs
+│   ├── figures
+│   │   ├── jpg
+│   │   │   ├── List-of-Atom-Modules-2021-03-19-01-44-41.jpg
+│   │   │   └── Scilab-6.1.0-2021-03-19-01-25-52.jpg
+│   │   └── png
+│   │       ├── List-of-Atom-Modules-2021-03-19-01-44-41.png
+│   │       └── Scilab-6.1.0-2021-03-19-01-25-52.png
+│   ├── files
+│   ├── run-sessions
+│   ├── Screenshot_2021-03-31_15-59-34.png
+│   └── Screenshot_2021-03-31_16-01-02.png
+└── workspace
+
+16 directories, 50 files
+wruslan@HPEliteBk8470p-ubstudio-20:~/github/wruslandra/using-scilab6$ 
+
+===========================================================
+
